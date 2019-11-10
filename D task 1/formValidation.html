@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<h1>form validation</h1>
+</head>
+<body>
+<form>
+<h3>
+UserName:
+<input type="text" name="username"required>
+<br><br/>
+Password:
+<input type="password"name="password"required></h3>
+<br><br/>
+Date of birth:
+<input type="birthday"name="birthday"required>
+<fieldset class="inline">
+<legend>gender<span class="star">*</span></legend>
+<input type="radio" required name="gender" value="male" id="male">
+<label for="male" class="inline">Male</label>
+<input required type="radio" name="gender" value="female" id="female">
+<label for="female"class="inline">Female</label>
+</fieldset>
+<br>
+phone no:
+<input type="phone number"name="phone number">
+<br><br>
+status:
+<input type="radio" value="married" id="married">
+<label for="married" class="inline">married</label>
+<input type="radio" value="unmarried" id="unmarried">
+<label type="unmarried" class="inline">unmarried</label>
+
+<br>
+</br>
+<input type="submit"><br></br>
+<input type="button"value="cancel">
+<br>
+<br>
+</form>
+</body>
+</html>
